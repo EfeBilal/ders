@@ -1,0 +1,4 @@
+def indirimli_fiyat(fiyat, indirim):
+  return fiyat - fiyat * indirim / 100
+son_fiyat = indirimli_fiyat(1000,20)
+print(son_fiyat)

@@ -1,0 +1,4 @@
+def dikdortgen(uzunluk,genislik):
+  return uzunluk * genislik
+alan = dikdortgen(10,5)
+print(alan)
